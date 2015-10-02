@@ -27,6 +27,7 @@ public class SudokuVerifier {
 			if(!Character.isDigit(candidateSolution.charAt(i))){
 				return -1;
 			}
+			return 0;
 		}
 		//subgrid validity
 		
