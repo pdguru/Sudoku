@@ -22,6 +22,12 @@ public class SudokuVerifier {
 		//check length
 		if(candidateSolution.length()!=81) return -5;
 		
+		//valid numbers
+		for(int i=0; i<81; i++){
+			if(!Character.isDigit(candidateSolution.charAt(i))){
+				return -1;
+			}
+		}
 		//subgrid validity
 		
 		return 0;
