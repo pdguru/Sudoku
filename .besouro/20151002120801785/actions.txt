@@ -24,3 +24,4 @@ RefactoringAction 1443778421533 TestSudokuVerifier.java RENAME testInputString()
 RefactoringAction 1443778424047 TestSudokuVerifier.java RENAME testInputStringIs()=>void testInputStringIsValid() METHOD
 RefactoringAction 1443778805910 SudokuVerifier.java ADD import org.hamcrest.core.Is IMPORT
 EditAction 1443778927951 SudokuVerifier.java 1072 2 4 0
+EditAction 1443778928030 TestSudokuVerifier.java 461 3 3 2

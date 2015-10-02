@@ -19,4 +19,8 @@ public class TestSudokuVerifier {
 		assertEquals(0, game.possibleSolution());
 	}
 
+	@Test
+	public void testInputStringIsValid(){
+		assertEquals(0, game.possibleSolution());
+	}
 }
