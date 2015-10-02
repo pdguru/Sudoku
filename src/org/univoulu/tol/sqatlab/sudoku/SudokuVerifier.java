@@ -30,6 +30,6 @@ public class SudokuVerifier {
 		}
 		//subgrid validity
 		
-		return 0;
+		return -2;
 	}
 }
