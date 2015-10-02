@@ -9,3 +9,4 @@ RefactoringAction 1443777908052 TestSudokuVerifier.java ADD SudokuVerifier game 
 RefactoringAction 1443777923587 TestSudokuVerifier.java ADD void setup() METHOD
 RefactoringAction 1443777962240 TestSudokuVerifier.java ADD import org.junit.Before IMPORT
 EditAction 1443778288621 SudokuVerifier.java 941 2 3 0
+EditAction 1443778288700 TestSudokuVerifier.java 364 2 2 1
