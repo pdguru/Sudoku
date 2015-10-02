@@ -24,10 +24,8 @@ public class SudokuVerifier {
 		
 		//valid numbers
 		for(int i=0; i<81; i++){
-			if(!Character.isDigit(candidateSolution.charAt(i))){
-				return -1;
-			}
-			return 0;
+			if(!Character.isDigit(candidateSolution.charAt(i)))	return -1; 
+			else return 0;
 		}
 		//subgrid validity
 		
