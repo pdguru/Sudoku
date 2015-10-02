@@ -34,3 +34,4 @@ RefactoringAction 1443778978290 TestSudokuVerifier.java RENAME testSubGrid=>void
 RefactoringAction 1443778980304 TestSudokuVerifier.java RENAME testSubGridIs=>void testSubGridIsValid FIELD
 RefactoringAction 1443778981817 TestSudokuVerifier.java RENAME testSubGridIsValid=>void testSubGridIsValid() METHOD
 EditAction 1443779049473 SudokuVerifier.java 1073 2 4 0
+EditAction 1443779049590 TestSudokuVerifier.java 557 4 4 3

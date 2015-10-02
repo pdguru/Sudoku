@@ -23,4 +23,9 @@ public class TestSudokuVerifier {
 	public void testInputStringIsValid(){
 		assertEquals(0, game.possibleSolution());
 	}
+	
+	@Test
+	public void testSubGridIsValid(){
+		assertEquals(0, game.possibleSolution());
+	}
 }
