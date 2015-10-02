@@ -3,3 +3,9 @@ RefactoringAction 1443776885825 SudokuVerifier.java ADD String valid FIELD
 RefactoringAction 1443776885826 SudokuVerifier.java ADD String invalid FIELD
 RefactoringAction 1443776885827 SudokuVerifier.java ADD void possibleSolution() METHOD
 EditAction 1443777106556 SudokuVerifier.java 539 2 2 0
+RefactoringAction 1443777678923 TestSudokuVerifier.java RENAME test()=>void testInput() METHOD
+RefactoringAction 1443777682433 TestSudokuVerifier.java RENAME testInput()=>void testInputLength() METHOD
+RefactoringAction 1443777908052 TestSudokuVerifier.java ADD SudokuVerifier game FIELD
+RefactoringAction 1443777923587 TestSudokuVerifier.java ADD void setup() METHOD
+RefactoringAction 1443777962240 TestSudokuVerifier.java ADD import org.junit.Before IMPORT
+EditAction 1443778288621 SudokuVerifier.java 941 2 3 0
